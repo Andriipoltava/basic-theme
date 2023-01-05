@@ -14,8 +14,8 @@ function theme_enqueue_styles()
         $ver = time();
     }
     // Grab asset urls.
-    $theme_styles = "/assets/css/theme{$suffix}.css";
-    $theme_scripts = "/assets/js/theme{$suffix}.js";
+    $theme_styles = "/css/theme{$suffix}.css";
+    $theme_scripts = "/js/theme{$suffix}.js";
 
 
     wp_enqueue_style('basic_name-styles', get_stylesheet_directory_uri() . $theme_styles, array(), $ver);

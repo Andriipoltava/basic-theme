@@ -17,7 +17,7 @@ if (!function_exists('basic_name_wpdocs_theme_add_editor_styles')) {
      */
     function basic_name_wpdocs_theme_add_editor_styles()
     {
-        add_editor_style('/assets/css/theme.css');
+        add_editor_style('/css/theme.css');
     }
 }
 
